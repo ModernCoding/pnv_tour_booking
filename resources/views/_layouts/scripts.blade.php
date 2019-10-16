@@ -9,6 +9,9 @@
 <script defer src="{{URL::asset('js/turbolinks.js')}}"></script>
 <script defer src="{{URL::asset('js/turbolinksStart.js')}}"></script>
 
+<script defer src="{{URL::asset('js/stimulus.umd.js')}}"></script>
+<script defer src="{{URL::asset('js/controllers/user_controller.js')}}"></script>
+
 <script defer src="{{URL::asset('js/entities/_layout.js')}}"></script>
 <script defer src="{{URL::asset('js/entities/country.js')}}"></script>
 <script defer src="{{URL::asset('js/entities/identificationType.js')}}"></script>
