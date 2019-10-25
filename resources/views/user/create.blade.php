@@ -17,6 +17,7 @@
     [
       'errors'      =>  $errors,
       'action'      =>  URL::action('UserController@store'),
+      'redirect'    =>  URL::action('UserController@index'),
       'user'        =>  $user
     ]
   )
